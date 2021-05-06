@@ -1,0 +1,4 @@
+1;M7;0.42 kWh;0.22 kWh;0.06 kWh;
+1;M9;0,08 kWh;0.2 kWh;0.1 kWh;
+2;E1;2.25 kWh;0.23 kWh;0.03 kWh;
+3;M3;3.0 kWh;0.10 kWh;0.10 kWh;
