@@ -11,3 +11,7 @@
     [] Nouveau fichier "AccueilJSPControleur" (contenant la gestion de la session)
     [] "SessionControleur" (redirection vers la page Accueil selon emploi)
         + "SessionControleur" doit être appelé dans le <a href> de la navbar des Vues
+
+## Features
+
+    [] Calendrier / tableau des maintenances à venir
