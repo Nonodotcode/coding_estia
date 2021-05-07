@@ -14,12 +14,12 @@
 
     // Sauvegarde de la ligne précédente
     $prec_sem = 1;
+    $energie = 0;
 
     while(!feof($f)){
         $line = trim(fgets($f));
         //echo $line."\r\n";
         $res = explode(";", $line);
-
             $num_sem = $res[0];
             $machine = $res[1];
                 $lettre = substr($machine, 0, 1);
@@ -30,7 +30,7 @@
             $arr_consoStock = $res[4];
                 $val_consoStock = explode(" ", $arr_consoStock);
 
-            $sum = (float)$val_consoRes[0] + (float)$val_consoStock[0];
+            $sum = $val_consoRes[0] + $val_consoStock[0];
 
             //echo $num_sem.' '.$prec_sem."\r\n";
             if ($num_sem == $prec_sem){
@@ -39,7 +39,8 @@
                     $prec_sem = $num_sem;
                 }
             } else {
-                fputs($fw, 'S'.$prec_sem.';'.$energie.' kWH'.';'."\r\n");
+            fputs($fw, 'S'.$prec_sem.';'.$energie.' kWH'.';'."\r\n");
+            //echo 'S'.$prec_sem.';'.$energie.' kWH'.';'."\r\n";
                 if ($lettre == "M"){
                     $energie = $sum;
                     $prec_sem = $num_sem;

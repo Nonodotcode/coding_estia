@@ -1,17 +1,31 @@
 # A terminer
 
-## Ecriture dans la base
+## Features
+- Calendrier / tableau des maintenances à venir
 
-    [] Formulaire d'ajout de machine
-    [] Formulaire création de gamme
-    [] Formulaire création/modif d'opération
+### Ecriture dans la base
+- [x] Formulaire d'ajout de machine
+- [ ] Formulaire création de gamme
+- [ ] Formulaire création/modif d'opération
 
 ## Fichiers à implémenter
+### Liste des fichiers à implémenter
+#### Gestion des la session
+- Nouveau fichier ***"AccueilJSPControleur"*** (contenant la gestion de la session)
+- ***"SessionControleur"*** (redirection vers la page Accueil selon emploi) + "SessionControleur" doit être appelé dans le "ahref" de la navbar des Vues
 
-    [] Nouveau fichier "AccueilJSPControleur" (contenant la gestion de la session)
-    [] "SessionControleur" (redirection vers la page Accueil selon emploi)
-        + "SessionControleur" doit être appelé dans le <a href> de la navbar des Vues
+#### DAO Modele
+- ZoneDAOModele
+- EtatDAOModele
 
-## Features
+#### Bean Modele
+- ZoneBeanModele
+- EtatBeanModele
 
-    [] Calendrier / tableau des maintenances à venir
+#### Controleurs
+- machineFormulaireControleur
+- MachineAjoutControleur
+
+#### Vue
+- machineAjoutVue
+- recapAjoutMachine
