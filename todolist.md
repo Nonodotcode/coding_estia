@@ -9,35 +9,36 @@
 
 
 ## Mise à jour
-- Changement du type de 'date_realisation' (date => text) [BDD]
-*Donc changement des classes _GammeBeanModel_ et _GammeDAOModel_*
+- [x] Changement du type de 'date_realisation' (date => text) [BDD]
+- [x] *Donc changement des classes _GammeBeanModel_ et _GammeDAOModel_*
 
 ## Fichiers à implémenter
 ### Liste des fichiers à implémenter
 #### Gestion des la session
-- Nouveau fichier ***"AccueilJSPControleur"*** (contenant la gestion de la session)
-- ***"SessionControleur"*** (redirection vers la page Accueil selon emploi) + "SessionControleur" doit être appelé dans le "ahref" de la navbar des Vues
+- [x] Nouveau fichier ***"AccueilJSPControleur"*** (contenant la gestion de la session)
+- [x] ***"SessionControleur"*** (redirection vers la page Accueil selon emploi) + "SessionControleur" doit être appelé dans le "ahref" de la navbar des Vues
 
 #### DAO Modele
-- ZoneDAOModele
-- EtatDAOModele
+- [x] ZoneDAOModele
+- [x] EtatDAOModele
 
 #### Bean Modele
-- ZoneBeanModele
-- EtatBeanModele
+- [x] ZoneBeanModele
+- [x] EtatBeanModele
 
 #### Controleurs
-- machineFormulaireControleur
-- MachineAjoutControleur
+- [x] machineFormulaireControleur
+- [x] MachineAjoutControleur
+
 - ListeOperationsControleur
 - AjoutGammeControleur
 - CreationGammeJSPControleur
 
 #### Vue
-- machineAjoutVue
-- recapAjoutMachine
-- listeOperationsVue
-- creerGammeVue
-- recapGammeVue
+- [x] machineAjoutVue
+- [x] recapAjoutMachine
+- [ ] listeOperationsVue
+- [ ] creerGammeVue
+- [ ] recapGammeVue
 
 **Rajouter dans le fichier gammeVue (liste des gammes) une colonne qui redirige vers le controleur ListeOperationsControleur** => visualiser les opérations associées à une gamme
