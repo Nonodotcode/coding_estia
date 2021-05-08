@@ -1,12 +1,16 @@
 # A terminer
 
 ## Features
-- Calendrier / tableau des maintenances à venir
+- [ ] Calendrier / tableau des maintenances à venir
 
 ### Ecriture dans la base
 - [x] Formulaire d'ajout de machine
-- [ ] Formulaire création de gamme
-- [ ] Formulaire création/modif d'opération
+- [x] Formulaire création de gamme
+
+
+## Mise à jour
+- Changement du type de 'date_realisation' (date => text) [BDD]
+*Donc changement des classes _GammeBeanModel_ et _GammeDAOModel_*
 
 ## Fichiers à implémenter
 ### Liste des fichiers à implémenter
@@ -25,7 +29,15 @@
 #### Controleurs
 - machineFormulaireControleur
 - MachineAjoutControleur
+- ListeOperationsControleur
+- AjoutGammeControleur
+- CreationGammeJSPControleur
 
 #### Vue
 - machineAjoutVue
 - recapAjoutMachine
+- listeOperationsVue
+- creerGammeVue
+- recapGammeVue
+
+**Rajouter dans le fichier gammeVue (liste des gammes) une colonne qui redirige vers le controleur ListeOperationsControleur** => visualiser les opérations associées à une gamme
