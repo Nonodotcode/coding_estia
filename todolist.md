@@ -4,7 +4,19 @@
 - [ ] Vérification ultime
 
 ## Features
-- [ ] Calendrier / tableau des maintenances à venir
+- [x] Calendrier / tableau des maintenances à venir
+### Affichage Machine - Date maintenance
+#### Fichiers modifiés 
+- GammeBeanModel
+- GammeDAOModel
+- AccueilJSPControleur
+- MachinesDAOModele
+- SessionControleur
+- accueilMethodesVue
+- accueilTousVue
+
+> *Modification à faire après avoir importé les nouveaux fichiers GammeBeanModel | GammeDAOModel*
+**gammeVue** *(remplacement du "gamme.id_machine" -> "gamme.machine.nom)*
 
 ### Ecriture dans la base
 - [x] Formulaire d'ajout de machine
@@ -45,3 +57,5 @@
 - [ ] recapGammeVue
 
 - [x] **Rajouter dans le fichier gammeVue (liste des gammes) une colonne qui redirige vers le controleur ListeOperationsControleur** => visualiser les opérations associées à une gamme
+
+
