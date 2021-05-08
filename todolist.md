@@ -1,4 +1,7 @@
 # A terminer
+- [ ] CSS
+- [ ] Finaliser le câblage des pages entre elles
+- [ ] Vérification ultime
 
 ## Features
 - [ ] Calendrier / tableau des maintenances à venir
@@ -30,15 +33,15 @@
 - [x] machineFormulaireControleur
 - [x] MachineAjoutControleur
 
-- ListeOperationsControleur
-- AjoutGammeControleur
-- CreationGammeJSPControleur
+- [x] ListeOperationsControleur
+- [ ] AjoutGammeControleur
+- [ ] CreationGammeJSPControleur
 
 #### Vue
 - [x] machineAjoutVue
 - [x] recapAjoutMachine
-- [ ] listeOperationsVue
+- [x] listeOperationsVue
 - [ ] creerGammeVue
 - [ ] recapGammeVue
 
-**Rajouter dans le fichier gammeVue (liste des gammes) une colonne qui redirige vers le controleur ListeOperationsControleur** => visualiser les opérations associées à une gamme
+- [x] **Rajouter dans le fichier gammeVue (liste des gammes) une colonne qui redirige vers le controleur ListeOperationsControleur** => visualiser les opérations associées à une gamme
