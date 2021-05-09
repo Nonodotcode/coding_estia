@@ -1,4 +1,5 @@
 # A terminer
+- [ ] date_realisation (création de gamme) => mettre un calendrier ?
 - [ ] CSS
 - [ ] Finaliser le câblage des pages entre elles
 - [ ] Vérification ultime
@@ -7,13 +8,13 @@
 - [x] Calendrier / tableau des maintenances à venir
 ### Affichage Machine - Date maintenance
 #### Fichiers modifiés 
-- GammeBeanModel
-- GammeDAOModel
-- AccueilJSPControleur
-- MachinesDAOModele
-- SessionControleur
-- accueilMethodesVue
-- accueilTousVue
+- [x] GammeBeanModel
+- [x] GammeDAOModel
+- [x] AccueilJSPControleur
+- [x] MachinesDAOModele
+- [x] SessionControleur
+- [x] accueilMethodesVue
+- [x] accueilTousVue
 
 > *Modification à faire après avoir importé les nouveaux fichiers GammeBeanModel | GammeDAOModel*
 **gammeVue** *(remplacement du "gamme.id_machine" -> "gamme.machine.nom)*
